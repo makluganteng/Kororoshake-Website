@@ -1,0 +1,266 @@
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+body {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 400;
+}
+
+em{
+    padding-left: 20px;
+    font-size: 1.5rem;
+}
+
+.carousel-control-prev-icon{
+    width: 70px;
+    height: 70px;
+}
+
+.carousel-control-next-icon{
+    width: 70px;
+    height: 70px;
+}
+.testimonial-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.price-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.price-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#title {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: white;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.features-box {
+    background-color: white;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 500;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 2rem; 
+    position: relative;
+
+}
+
+#testimonials {
+    padding: 7% 7%;
+    text-align: center;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    color: #ffff;
+    line-height: 1.5;
+}
+
+#press{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    text-align: center; 
+    padding-bottom: 3%;
+}
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+#cta{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 7% 7%;
+    text-align: center;
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: white;
+    
+} 
+
+#footer{
+    background-color: white;
+    padding: 7% 7% 0%;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.navbar {
+    padding: 0 0 7.5rem;
+}
+
+/*Download Button*/
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+    width: 20%;
+    transform: rotate(20deg);
+    right: 20%;
+    bottom: 4%;
+    position: absolute;
+}
+
+.fa-check-circle {
+    font-size: 80px;
+    color: #ef8172;
+    padding-bottom: 10px;
+}
+
+.fa-bullseye {
+    font-size: 80px;
+    color: #ef8172;
+    padding-bottom: 10px;
+}
+
+.fa-heart {
+    font-size: 80px;
+    color: #ef8172;
+    padding-bottom: 10px;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+.testimonial-image {
+    border-radius: 50%;
+    width: 13%;
+    margin: 20;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.sign-up-button{
+    width: 100%;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.fa-check{
+    color: #52b788;
+}
+
+.fa-times{
+    color: #ef8172;
+}
+
+.title-image:hover{
+    animation: shake 2s;
+    animation-iteration-count: 1;
+}
+
+.desc{
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+}
+
+.last-icon{
+    font-size: 30px;
+    padding: 0px 25px;
+}
+
+.copyright{
+    font-size: 25px;
+}
+
+.press-logo-div{
+    padding-top: 20px;
+}
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+@media(max-width: 1000px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+
+    .second-title{
+        text-align: center;
+    }
+
+    .carousel-control-prev-icon{
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-control-next-icon{
+        width: 35px;
+        height: 35px;
+    }
+
+    h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 1.5rem;
+        line-height: 1.5;
+    }
+
+    em{
+        padding-left: 20px;
+        font-size: 1rem;
+    }
+}
